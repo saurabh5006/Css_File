@@ -1,0 +1,6 @@
+.box {
+    border: 2px solid black;
+    padding: 20px; /* Add some padding to make it look nicer */
+    box-sizing: border-box; /* Include border and padding in the element's total width and height */
+    margin-inline: auto;
+}

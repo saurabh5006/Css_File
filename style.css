@@ -1,0 +1,20 @@
+div{
+    height: 300px;
+    width: 300px;
+    background: red;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 30px;
+    transition: 1s
+    
+    
+}
+
+div:hover{
+    /* background: yellow ; */
+    margin-top: 200px;
+
+    /* border-radius: 50%; */
+
+}
