@@ -1,20 +1,22 @@
-div{
-    height: 300px;
-    width: 300px;
-    background: red;
-    margin-top: 50px;
-    margin-left: 50px;
-    text-align: center;
-    padding: 30px;
-    transition: 1s
-    
+.font{
+    font-family: "Sevillana", cursive;
+    background: yellow;
+    letter-spacing: 20px;
+    font-size: 150px;
+}
+.heder{
+    height: 50px;
+    width: 100%;
+   
+    text-decoration: none;
     
 }
-
-div:hover{
-    /* background: yellow ; */
-    margin-top: 200px;
-
-    /* border-radius: 50%; */
-
+/* iska matlab , main containt to under tha (ul) ke but hum flex heder ko kar rahe the */
+.heder ul{ 
+    display: flex;
+    text-decoration: none;
+}
+.heder ul li{
+    display: inline-block;
+    margin-left: 20px;
 }
