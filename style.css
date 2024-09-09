@@ -1,4 +1,4 @@
-.font{
+/* .font{
     font-family: "Sevillana", cursive;
     background: yellow;
     letter-spacing: 20px;
@@ -12,11 +12,30 @@
     
 }
 /* iska matlab , main containt to under tha (ul) ke but hum flex heder ko kar rahe the */
-.heder ul{ 
+/* .heder ul{ 
     display: flex;
     text-decoration: none;
 }
 .heder ul li{
     display: inline-block;
     margin-left: 20px;
+} */ 
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 300px;
+    margin-top: 200px;
+    transition: 1s;
+  }
+
+.box:hover{
+    width: 100px;
+    height:200px;
 }
+.box:active{
+    background: black;
+}
+  
