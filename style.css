@@ -24,6 +24,7 @@
 .box {
     width: 200px;
     height: 100px;
+    border: 1px solid red;
     background-color: lightgray;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.5);
     margin-left: 300px;
